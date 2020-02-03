@@ -1,0 +1,66 @@
+@page {
+    size: a4;
+    margin: 30px 30px 40px 30px;
+}
+
+#bill-print {
+    display: none;
+}
+
+@media print {
+    .content-header, .content .row, .main-sidebar, .main-header {
+        display: none !important;
+    }
+
+    #bill-print {
+        display: block !important;
+    }
+
+    .bill-header {
+        text-align: center;
+    }
+
+    .bill-left-header {
+        width: 45%;
+        float: left;
+    }
+
+    .bill-right-header {
+        text-align: center;
+        width: 45%;
+        float: right;
+    }
+
+    .bill-body {
+        margin-top: 50px;
+    }
+
+    .left-info {
+        width: 65%;
+        float: left;
+    }
+
+    .right-info {
+        width: 35%;
+        float: right;
+    }
+
+    thead > tr > td {
+        font-weight: bold;
+    }
+
+    .bill-footer {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .bill-left-footer {
+        float: left;
+        width: 50%;
+    }
+
+    .bill-right-footer {
+        float: left;
+        width: 50%;
+    }
+}

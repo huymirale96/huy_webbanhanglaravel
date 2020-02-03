@@ -1,0 +1,27 @@
+.content-product > p > a > img {
+    max-width: 100%;
+}
+
+.newimg > img {
+    max-width: 100%;
+}
+
+.newdetail, .bannerdetail {
+    margin: auto;
+    /*text-align: justify;*/
+}
+
+.newdetail img, .bannerdetail img {
+    max-width: 100%;
+}
+
+.titledetail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 53px;
+    font-size: 45px;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    margin: 30px auto;
+}

@@ -1,0 +1,74 @@
+input[type="file"] {
+    display: block;
+}
+
+.imageThumb {
+    width: 250px;
+}
+
+.pip:hover .delete-img{
+    cursor: pointer;
+    display: block;
+}
+
+.pip {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.delete-img {
+    padding-top: 7px;
+    padding-right: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    cursor: pointer;
+}
+
+
+/* In edit image */
+.edit-image {
+    position: relative;
+}
+
+.edit-image > img {
+    max-height: 260px;
+    max-width: 100%;
+}
+
+.edit-image:hover img {
+    opacity: 50%;
+    display: block;
+}
+
+.edit-image-button {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
+
+.edit-image:hover .edit-image-button {
+    opacity: 1;
+}
+/* /In edit image */
+
+
+/* Add image */
+#previewImage, #previewImageDetail {
+    cursor: pointer;
+}
+#previewImage > img {
+    max-height: 260px;
+    max-width: 100%;
+}
+
+#previewBannerImage{
+    cursor: pointer;
+}
+#previewBannerImage > img {
+    max-width: 100%;
+}
+
+/* / Add image */
