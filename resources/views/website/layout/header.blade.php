@@ -8,7 +8,7 @@
     <meta property="fb:app_id" content="2441440862629884"/>
     <meta property="fb:admins" content="1526551657651749"/>
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
-    <base href="{{ env(APP_URL . '/public/asset/website/') }}/">
+    <base href="/public/asset/website/">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
     <link rel="stylesheet" href="css/fontawesome-all.css">
